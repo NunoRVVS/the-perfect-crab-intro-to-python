@@ -12,5 +12,7 @@ print(f"b is {b}")
 # see.
 
 # Was it what you expected?
+#Since a = b, a will assume b's value, which is 20. And both a and b will
+# print 20.
 
 # Try to puzzle it out, and then move on to 020_state_tables.py
