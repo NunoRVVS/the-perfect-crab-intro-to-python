@@ -73,6 +73,7 @@
 # You can create one yourself if you like.
 
 # Type your name as a comment on the next line.
+# Nuno Soares
 
 # Hint: if you're on a Mac, type opt + 3 to get a #
 
