@@ -28,8 +28,23 @@ print("")
 print("Function: report_long_words")
 
 def report_long_words(words):
-  pass
-
+  long_words = []
+  for word in words:
+    # Check if the word is longer than 10 characters and does not contain a hyphen
+    if len(word) > 10 and '-' not in word:
+      # If the word is longer than 15 characters, shorten it
+      # to 15 characters and add an ellipsis
+      if len(word) > 15:
+        # Append the first 15 characters and add '...' at the end        
+        long_words.append(word[:15] + '...')
+      else:
+        long_words.append(word)
+  # Join the long words into a single string
+  if long_words:
+    return "These words are quite long: " + ', '.join(long_words)
+  else:
+    return "These words are quite long: "       
+ 
 check_that_these_are_equal(
   report_long_words([
     'hello',

@@ -17,6 +17,7 @@
 my_dictionary = {
   "String": "A sequence of characters",
   "List": "A sequence of any item",
+  "Dictionary": "A group of keys and values, just like a normal dictionary",
 }
 
 # Note that:
@@ -37,6 +38,6 @@ print("  " + my_dictionary["List"])
 # the code around line 20. Then print out the value below.
 
 print("A Dictionary is:")
-# ...
+print(" " + my_dictionary["Dictionary"])
 
 # Once you're done, move on to 038_dict_operations.py
